@@ -28,7 +28,7 @@ jQuery(document).ready(function($){
         if( !resizing) {
             resizing =  true;
             ( !window.requestAnimationFrame )
-                ? setTimeout(function(){checkLabel(imageComparisonContainers);}, 100)
+                ? setTimeout(function(){checkLabel(imageComparisonContainers);}, 500)
                 : requestAnimationFrame(function(){checkLabel(imageComparisonContainers);});
         }
     });
