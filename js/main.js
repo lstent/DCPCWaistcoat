@@ -14,6 +14,8 @@ jQuery(document).ready(function($){
                 ? setTimeout(function(){checkPosition(imageComparisonContainers);}, 100)
                 : requestAnimationFrame(function(){checkPosition(imageComparisonContainers);});
         }
+    <div class="sketchfab-embed-wrapper"> 
+                 <iframe title="DCPC - Waistcoat" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/95aed53419c649a9abc888693aa36246/embed?autostart=1&camera=0&ui_hint=2&dnt=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/dcpc-waistcoat-95aed53419c649a9abc888693aa36246?utm_medium=embed&utm_campaign=share-popup&utm_content=95aed53419c649a9abc888693aa36246" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> DCPC - Waistcoat </a> by <a href="https://sketchfab.com/LucStent?utm_medium=embed&utm_campaign=share-popup&utm_content=95aed53419c649a9abc888693aa36246" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> LucStent </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=95aed53419c649a9abc888693aa36246" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
     });
     
     //make the .cd-handle element draggable and modify .cd-resize-img width according to its position
